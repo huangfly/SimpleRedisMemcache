@@ -12,13 +12,13 @@ type RedisConf struct{
 }
 
 type MysqlInfo struct{
-	Ip 			string
+	Ip			string
 	User		string
 	Password	string
 }
 
 type RedisInfo struct{
-	Ip 			string
+	Ip			string
 	Password 	string
 	Maxactive 	int
 	MaxIdle		int

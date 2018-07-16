@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RedisConf>
+	<Mysql>
+		<Ip>127.0.0.1:3306</Ip>
+		<User>root</User>
+		<Password>E869DD13E418DF809E2B4B985A88E608</Password>
+	</Mysql>
+	<Redis>
+		<Ip>127.0.0.1:6379</Ip>
+		<Password>E869DD13E418DF809E2B4B985A88E608</Password>
+		<Maxactive>10</Maxactive>
+		<MaxIdle>5</MaxIdle>
+		<IdleTimeout>240</IdleTimeout>
+	</Redis>
+</RedisConf>
