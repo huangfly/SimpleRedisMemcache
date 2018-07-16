@@ -52,6 +52,6 @@ func (this *DataBase) DoCmd() (*sql.Tx, error) {
 }
 
 //关闭数据库
-func (this *DataBase)Close(){
+func (this *DataBase) Close() {
 	this.dbsql.Close()
 }

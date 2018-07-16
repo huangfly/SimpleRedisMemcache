@@ -63,7 +63,7 @@ func (this *RedisCachePool) Close() {
 }
 
 //创建一个redispool
-func NewCachePool(ipport, password string, maxactive, maxidle, idletime int)  CacheInterface{
+func NewCachePool(ipport, password string, maxactive, maxidle, idletime int) CacheInterface {
 	redispool := &redis.Pool{
 		MaxActive:   maxactive,
 		MaxIdle:     maxidle,
