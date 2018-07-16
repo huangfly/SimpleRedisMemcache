@@ -1,0 +1,2 @@
+# SimpleRedisMemcache
+一个数据golang的数据缓存系统，redis作为mysql的数据缓存，提供数据的基本操作，提供加密算法加密功能保证数据和配置文件的安全性。
